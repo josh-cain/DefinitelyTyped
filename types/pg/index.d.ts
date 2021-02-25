@@ -46,7 +46,6 @@ export interface Defaults extends ClientConfig {
 export interface PoolConfig extends ClientConfig {
     // properties from module 'node-pool'
     max?: number;
-    min?: number;
     idleTimeoutMillis?: number;
     log?: (...messages: any[]) => void;
     Promise?: PromiseConstructorLike;
